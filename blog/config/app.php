@@ -176,7 +176,10 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+	
+	Base\Providers\BaseServiceProvider::class, //公共基本服务Provider
+        Admin\Providers\BaseServiceProvider::class, //后台服务Provider
+        Home\Providers\BaseServiceProvider::class, //前台基本服务Provider
     ],
 
     /*
