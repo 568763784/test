@@ -11,7 +11,7 @@
 |
 */
 
-//Route::get('/a', function () {
-//    return view('welcome');
-//});
-//Route::get( '/admin','Admin\IndexController@index' );
+Route::get('/', function () {
+    return view('welcome');
+});
+Route::get( '/admin','Admin\IndexController@index' );
