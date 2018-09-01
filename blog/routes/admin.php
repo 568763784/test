@@ -6,5 +6,4 @@
  * Time: 22:18
  */
 
-
 Route::get( '/index','Admin\IndexController@index' );
